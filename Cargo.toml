@@ -1,0 +1,10 @@
+[package]
+name = "inquire_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+colorize = "0.1.0"
+
+inquire = { version = "0.7.5", features = ["date"] }
